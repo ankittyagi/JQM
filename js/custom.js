@@ -3,6 +3,10 @@ $('.returnTopAction').live('click', function() {
 });
 $('#gallery-page').live('pageshow', function () { 
 		$myPhotoSwipe = $(".gallery a").photoSwipe({ enableMouseWheel: false , enableKeyboard: false });});
+		
+$('#first_page_a a').css("height","100px");
+$('#first_page_a a').css("width","200px");
+$('#first_page_a *').css("background","rgba(0,0,0,.7)");
 
 /*		
 $('#send').live("click", function() {

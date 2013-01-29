@@ -20,3 +20,29 @@ Released for free under a Creative Commons Attribution 2.5 License
 text-align: center;
 font-size: 11px;
 }
+.ui-page {
+    background: transparent;
+	
+}
+.page1_content{
+text-align: center;
+}
+.ui-body-c{
+color: hsl(0, 0%, 95%);
+
+}
+.ui-content{
+background:hsla(0, 0%, 0%, 0);
+}
+.first_page_image{
+
+height:200px;
+
+}
+
+.body {
+    background: url(../images/background_image.jpg);
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}

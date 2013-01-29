@@ -19,33 +19,24 @@ Released for free under a Creative Commons Attribution 2.5 License
 		<script type="text/javascript" src="js/jquery.mobile.js"></script>
 		<script type="text/javascript" src="js/klass.min.js"></script>
 		<script type="text/javascript" src="js/code.photoswipe.jquery-3.0.4.min.js"></script>
-		<script type="text/javascript" src="js/custom.js"></script>
-	</head>
-	<body>
+		</head>
+	<body class="body">
 		<div data-role="page" id="index.html">
 			<div data-role="header" id="header">
 				<h1>Mobile Template</h1>
 			</div><!-- /header -->
-			<div data-role="content">
-				<ul data-role="listview" data-inset="true"  data-theme="a">
-					<li>
-						<a href="#gallery-page" data-transition="slide">Gallery</a>
-					</li>
-					<li>
-						<a href="#about.html" data-transition="slide">About</a>
-					</li>
-					<li>
-						<a href="#features.html" data-transition="slide">Features</a>
-					</li>
-					<li>
-						<a href="#typography.html" data-transition="slide">Typography</a>
-					</li>
-					<li>
-						<a href="#contact.html" data-transition="slide">Contact</a>
-					</li>
-				</ul>
-				<p class="copyright">Copyright &copy; Me. Designed by <a href="" class="ui-link">By ME</a></p>
-			</div><!-- /content -->
+			<div data-role="content" class="page1_content">
+			<div id="first_page_a">
+			<div class="first_page_image" data-theme="a" data-corners="true" data-role="button" ></div>
+					<a  href="#gallery-page" data-transition="slide" data-theme="a" data-role="button" data-inline="true"  data-shadow="false"  data-tolerance="0,0" >Gallery</a>
+					<a  href="#about.html" data-transition="slide" data-theme="a" data-role="button"  data-inline="true">About</a>
+					<br />
+					<a  href="#features.html" data-transition="slide" data-theme="a" data-role="button"  data-inline="true">Features</a>
+					<a  href="#typography.html" data-transition="slide" data-theme="a" data-role="button"  data-inline="true">Typography</a>
+					<br />
+					<a  href="#contact.html" data-transition="slide" data-theme="a" data-role="button"  data-inline="true">Contact</a>
+			</div>
+				</div><!-- /content -->
 			  <div data-role="footer" data-theme="a" data-id="foo1" data-position="fixed">
             <div class="ui-bar">
              <a href="#share-dialog.html"  data-role="button" data-inline="true" data-icon="star" data-theme="a" data-rel="dialog">Share</a> 
@@ -65,17 +56,15 @@ Released for free under a Creative Commons Attribution 2.5 License
 			<div data-role="content">
 				<ul class="gallery">
 						<li><a href="http://www.mrova.com/wp-content/uploads/2011/11/ghardedo.com-screen-capture-2011-11-18-13-35-50.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2011/11/ghardedo.com-screen-capture-2011-11-18-13-35-50-200x130.png" alt="Image 010" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2011/11/unexploredindia.in-screen-capture-2011-11-15-14-30-34.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2011/11/unexploredindia.in-screen-capture-2011-11-15-14-30-21-200x130.png" alt="Image 011" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2011/11/ramganjmandi.in-screen-capture-2011-11-15-13-56-54.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2011/11/ramganjmandi.in-screen-capture-2011-11-15-13-56-54-200x130.png" alt="Image 012" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2010/11/eKoshEducations_1290156047352.jpeg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/11/eKoshEducations_1290156047352-200x130.jpg" alt="Image 013" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2010/11/FictionFreak-Think-Create-Astonish_1290080942400.jpeg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/11/FictionFreak-Think-Create-Astonish_1290080942400-200x130.jpg" alt="Image 014" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/dr-kunal-luthra_1275642999972.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/dr-kunal-luthra_1275642999972-200x130.png" alt="Image 015" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/portfolioPicChickenHunt-857x390.jpg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/portfolioPicChickenHunt-200x130.jpg" alt="Image 016" /></a></li>
-			<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/Screenshot-4.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/mrovaWebPackage11-200x130.jpg" alt="Image 017" /></a></li>
-			
-						
-					</ul>
-					<p class="copyright">Copyright &copy; Me. Designed by <a href="" class="ui-link">By ME</a></p>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2011/11/unexploredindia.in-screen-capture-2011-11-15-14-30-34.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2011/11/unexploredindia.in-screen-capture-2011-11-15-14-30-21-200x130.png" alt="Image 011" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2011/11/ramganjmandi.in-screen-capture-2011-11-15-13-56-54.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2011/11/ramganjmandi.in-screen-capture-2011-11-15-13-56-54-200x130.png" alt="Image 012" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2010/11/eKoshEducations_1290156047352.jpeg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/11/eKoshEducations_1290156047352-200x130.jpg" alt="Image 013" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2010/11/FictionFreak-Think-Create-Astonish_1290080942400.jpeg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/11/FictionFreak-Think-Create-Astonish_1290080942400-200x130.jpg" alt="Image 014" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/dr-kunal-luthra_1275642999972.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/dr-kunal-luthra_1275642999972-200x130.png" alt="Image 015" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/portfolioPicChickenHunt-857x390.jpg" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/portfolioPicChickenHunt-200x130.jpg" alt="Image 016" /></a></li>
+						<li><a href="http://www.mrova.com/wp-content/uploads/2010/10/Screenshot-4.png" rel="external"><img src="http://www.mrova.com/wp-content/uploads/2010/10/mrovaWebPackage11-200x130.jpg" alt="Image 017" /></a></li>
+				</ul>
+					
 			</div><!-- /content -->
 			  <div data-role="footer" data-theme="a" data-id="foo1" data-position="fixed">
             <div class="ui-bar">
@@ -136,71 +125,10 @@ Released for free under a Creative Commons Attribution 2.5 License
 		<h5>H5 Heading</h5>
 		<h6>H6 Heading</h6>
 		
-		<p>This is a paragraph that contains <strong>strong</strong>, <em>emphasized</em> and <a href="index.html">linked</a> text. Here is more text so you can see how HTML markup works in content. Here is more text so you can see how HTML markup works in content.</p>
 		
-		<blockquote>How about some blockquote action with a <cite>cite</cite></blockquote>
-		
-		<p>This is another paragraph of text so you can see how HTML markup works in content. This is another paragraph of text so you can see how HTML markup works in content. This is another paragraph of text so you can see how HTML markup works in content.</p>
-		
-		<p>We add a few styles to <code>tables</code> and <code>fieldsets</code> to make them more legible, which are easily overridden with customs styles.</p>
-		
-		<ul>
-			<li>Unordered list item 1</li>
-			<li>Unordered list item 1</li>
-			<li>Unordered list item 1</li>
-		</ul>
-		
-		<ol>
-			<li>Ordered list item 1</li>
-			<li>Ordered list item 1</li>
-			<li>Ordered list item 1</li>
-		</ol>
-		
-		<dl title="Definition list">
-			<dt>Definition term</dt>
-			<dd>I'm the definition text</dd>
-			<dt>Definition term</dt>
-			<dd>I'm the definition text</dd>
-		</dl>
-
-
-
-		<table summary="This table lists all the JetBlue flights.">
-		  <caption>Travel Itinerary</caption>
-		  <thead>
-		    <tr>
-		       <th scope="col">Flight:</th>  
-		      <th scope="col">From:</th>  
-		      <th scope="col">To:</th>  
-		    </tr>
-		  </thead>
-		  <tfoot>
-		    <tr>
-		      <td colspan="5">Total: 3 flights</td>
-		    </tr>
-		  </tfoot>
-		  <tbody>
-		  <tr>
-		    <th scope="row">JetBlue 983</th>
-		    <td>Boston (BOS)</td>
-		    <td>New York (JFK)</td>
-		  </tr>
-		  <tr>
-		    <th scope="row">JetBlue 354</th>
-		    <td>San Francisco (SFO)</td>
-		    <td>Los Angeles (LAX)</td>
-		  </tr>
-		<tr>
-		    <th scope="row">JetBlue 465</th>
-		    <td>New York (JFK)</td>
-		    <td>Portland (PDX)</td>
-		  </tr>
-		  </tbody>
-		</table>
 	
 	
 	</div><!--/content-primary -->		
-		<p class="copyright">Copyright &copy; Me. Designed by <a href="" class="ui-link">By ME</a></p>
 		
 			</div><!-- /content -->
 			  <div data-role="footer" data-theme="a" data-id="foo1" data-position="fixed">
@@ -285,8 +213,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 						</div>
 					</div><!-- //.contact-form -->
 				</div>
-					<p class="copyright">Copyright &copy; Me. Designed by <a href="" class="ui-link">By ME</a></p>
-		</div><!-- /content -->
+				</div><!-- /content -->
 			  <div data-role="footer" data-theme="a" data-id="foo1" data-position="fixed">
             <div class="ui-bar">
              <a href="#share-dialog.html"  data-role="button" data-inline="true" data-icon="star" data-theme="a" data-rel="dialog">Share</a> 
@@ -438,6 +365,7 @@ Released for free under a Creative Commons Attribution 2.5 License
           <!-- /Footer --> 
 
 		</div><!-- /page -->
-	
+		<script type="text/javascript" src="js/custom.js"></script>
+
 	</body>
 </html>
